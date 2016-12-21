@@ -23,13 +23,13 @@ Set mintime in seconds.
 Execute the launcher.py file to run the algorithm. It takes 2 command line parameters, first being the directory of the input files and second being the name of the route of trajectory(ex: CityCenter1,Station20,Airport2 etc.).
 The output of each step is saved in the same directory as the input files.
 
-First the slow points are extracted from the whole trajectory and saved in a file named slow_<input file name> for each input trajectory.
+First the slow points are extracted from the whole trajectory and saved in a file named slow_[input file name for each input trajectory.
 
-Next, core points are extracted which are the personalised stops for this algorithm. These are saved in file named corePoints_<input file name>.
+Next, core points are extracted which are the personalised stops for this algorithm. These are saved in file named corePoints_[input file name].
 
-Next, from the core points, clusters are calculated and saved in files named clusters_<input file name>.
+Next, from the core points, clusters are calculated and saved in files named clusters_[input file name].
 
-Finally, all clusters are brought together and shared stops are calculated from it. The shared stops are saved in a file named shared_stops_<the name we given as 2nd command line parameter>.
+Finally, all clusters are brought together and shared stops are calculated from it. The shared stops are saved in a file named shared_stops_[the name we given as 2nd command line parameter].
 
 3.
 
