@@ -49,13 +49,9 @@ for ground_truth_point in ground_truth_points:
 	if is_false_negative:
 		false_negative += [ground_truth_point]
 
-tp_len = len(true_positive)
-fp_len = len(false_positive)
-fn_len = len(false_negative)
-
-print "True Positive: ", tp_len
-print "False Positive: ", fp_len
-print "False Negative: ", fn_len
+print "True Positive: ",len(true_positive)
+print "False Positive: ",len(false_positive)
+print "False Negative: ",len(false_negative)
 
 file = open(ground_truth+"_true_positive","w")
 fileWrite(true_positive,file)
