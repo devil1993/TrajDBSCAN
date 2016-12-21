@@ -1,0 +1,14 @@
+{
+	"filenames" : [	 "cup_1.txt"
+			,"cup_2.txt"
+			,"cup_3.txt"
+			,"cup_4.txt"
+			,"cup_5.txt"
+			,"cup_6.txt"
+			,"cup_7.txt"
+			,"cup_10.txt"
+			,"cup_9.txt"
+			,"cup_8.txt"]
+	,"eps":20
+	,"mintime":3
+}

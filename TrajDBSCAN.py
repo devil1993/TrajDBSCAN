@@ -129,6 +129,7 @@ def createSlowPointFiles():
 		finalPoints = pointSet[:]
 
 		for x in xrange(1,len(pointSet)-2):
+			#for us, we consider distance 1 meter between consecutive point as slow. 
 		        if get_spherical_distance(pointSet[x][0],pointSet[x+1][0],pointSet[x][1],pointSet[x+1][1]) > 1:
 		                finalPoints.remove(pointSet[x+1])
 		for x in finalPoints:
